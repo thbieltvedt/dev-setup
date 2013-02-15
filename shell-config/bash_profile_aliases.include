@@ -10,8 +10,6 @@ alias gaa='git add .'
 alias gco='git commit'
 alias gch='git checkout'
 alias gs='git status'
-alias gchdev='git checkout develop'
-alias gchrel='git checkout release/2.34.0'
 
 
 ### Diverse ####
