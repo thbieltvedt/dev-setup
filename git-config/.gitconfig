@@ -1,0 +1,9 @@
+[core]
+	autocrlf = input
+
+[user]
+	email = th@bieltvedt.net
+	name = Tor Håvard Bieltvedt
+
+[push]
+	default=current
