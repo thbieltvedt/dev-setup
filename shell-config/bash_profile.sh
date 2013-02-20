@@ -69,7 +69,6 @@ alias pr="play run"
 alias pc="play compile"
 alias ps="play start"
 alias play20="${PLAY_2_0_HOME}/play"
-alias pr20br="play20 -Denv_config_file=environment_dev_mac.conf run"
 
 
 ### Shortcuts ###
