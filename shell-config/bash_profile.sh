@@ -1,11 +1,8 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 
-# Set user-defined locale
-#export LANG=$(locale -uU)
-
-
 ### Window specific ###
+#export PATH=/usr/local/bin:/usr/bin:/cygdrive/c/Windows/system32:/cygdrive/c/Windows
 #alias git='git.cmd'
 #alias play="play.bat"
 
