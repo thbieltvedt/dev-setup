@@ -71,7 +71,6 @@ alias   sshpoc='ssh root@46.137.74.84 -i ~/"Private keys"/thb.pem'
 alias pr="play run"
 alias pc="play compile"
 alias ps="play start"
-alias play20="${PLAY_2_0_HOME}/play"
 
 
 ### Shortcuts ###
