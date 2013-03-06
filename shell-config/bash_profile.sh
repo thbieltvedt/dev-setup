@@ -63,6 +63,9 @@ alias    cdbr="cd ${GIT_REPOSITORIES_HOME}/bieltvedtrallysport.no"
 alias    cdel="cd ${DEV_HOME}/inphra-dev-projects/entiolab"
 alias   cdpoc="cd ${DEV_HOME}/poc"
 
+alias   sshbr='ssh root@79.125.113.175 -i ~/"Private keys"/thb.pem'
+alias   sshpoc='ssh root@46.137.74.84 -i ~/"Private keys"/thb.pem'
+
 
 ### Play framework aliases ###
 alias pr="play run"
