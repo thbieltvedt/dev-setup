@@ -14,16 +14,26 @@ DEV_SOFTWARE_HOME=${DEV_HOME}/Software
 GIT_REPOSITORIES_HOME=${DEV_HOME}/Git-Repositories
 
 ### Home directories export ###
-export   JAVA_HOME=$DEV_SOFTWARE_HOME/Java/jdk1.7.0_21
+#export   JAVA_HOME=$DEV_SOFTWARE_HOME/Java/jdk1.7.0_21
 export    GIT_HOME=$DEV_SOFTWARE_HOME/Git/Git-1.7.11
 export    MVN_HOME=$DEV_SOFTWARE_HOME/Maven/apache-maven-3.1.1
 export   PLAY_HOME=$DEV_SOFTWARE_HOME/Play/play-2.1.1
 export JREBEL_HOME=$DEV_SOFTWARE_HOME/JRebel/jrebel-5.1.2
 export GRADLE_HOME=$DEV_SOFTWARE_HOME/Gradle/gradle-1.5
+export JAVA7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home
+export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
+export JAVA_HOME=JAVA8_HOME
 
 
 ### Path ###
-export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin:$GRADLE_HOME/bin:$PLAY_HOME
+export PATH_WITHOUT_JAVA=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:$GIT_HOME/cmd:$MVN_HOME/bin:$GRADLE_HOME/bin:$PLAY_HOME
+alias setpath='export PATH=$PATH_WITHOUT_JAVA:$JAVA_HOME/bin'
+setpath
+
+
+### Java version ###
+alias          j7='export JAVA_HOME=$JAVA7_HOME; setpath'
+alias          j8='export JAVA_HOME=$JAVA8_HOME; setpath'
 
 
 ### Java options ###
