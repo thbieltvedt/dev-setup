@@ -97,4 +97,5 @@ alias cloudify="sh /Users/torhaavard/Development/Software/POC/Cloudify/gigaspace
 
 
 ### Shortcuts ###
-alias run="sh run.sh"
+alias   run="sh run.sh"
+alias runsw="java -jar ../spark-static-website/target/spark-static-website-1.0-SNAPSHOT.jar $(pwd)"
