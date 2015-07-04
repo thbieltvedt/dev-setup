@@ -83,7 +83,8 @@ alias   poc="cd ${DEV_SOFTWARE_HOME}/POC"
 alias   sshbr='ssh root@79.125.113.175 -i ~/"Private keys"/thb.pem'
 alias   sshpoc='ssh root@46.137.74.84 -i ~/"Private keys"/thb.pem'
 
-alias refresh="source ~/.bash_profile"
+alias reload="source ~/.bash_profile"
+alias   show="cat ${GIT_REPOSITORIES_HOME}/dev-setup/bash/bash_profile.sh"
 
 ### Play framework aliases ###
 alias pr="play run"
