@@ -9,9 +9,9 @@ fi
 
 
 ### Base directories ###
-DEV_HOME=~/Development
+DEV_HOME=~/Dev
 DEV_SOFTWARE_HOME=${DEV_HOME}/Software
-GIT_REPOSITORIES_HOME=${DEV_HOME}/Git-Repositories
+GIT_REPOSITORIES_HOME=${DEV_HOME}/GitHub
 
 ### Home directories export ###
 #export   JAVA_HOME=$DEV_SOFTWARE_HOME/Java/jdk1.7.0_21
@@ -23,7 +23,7 @@ export GRADLE_HOME=$DEV_SOFTWARE_HOME/Gradle/gradle-1.5
 export JAVA6_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
 export JAVA7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home
 export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
-export JAVA_HOME=JAVA8_HOME
+export JAVA_HOME=$JAVA8_HOME
 
 
 ### Path ###
