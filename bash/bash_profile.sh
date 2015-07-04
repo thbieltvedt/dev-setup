@@ -53,11 +53,12 @@ alias mjr="mvn jetty:run"
 
 ### Git  ###
 alias gpsh='git push'
-alias gpl='git pull --ff-only'
-alias gaa='git add .'
-alias gco='git commit'
-alias gch='git checkout'
-alias gs='git status'
+alias  gpl='git pull --ff-only'
+alias  gaa='git add .; git status'
+alias  gco='git commit'
+alias  gch='git checkout'
+alias   gs='git status'
+alias   gb='git branch'
 
 
 ### Change directory aliases ###
@@ -70,7 +71,8 @@ alias   gae='cd "${GOOGLE_APP_ENGINE_HOME}/bin"'
 alias entio="cd ${DEV_HOME}/inphra-dev-projects/entiolab"
 alias    gh="cd ${GIT_REPOSITORIES_HOME}"
 alias    ds="cd ${GIT_REPOSITORIES_HOME}/dev-setup"
-alias    ft="cd ${GIT_REPOSITORIES_HOME}/font-theater"
+alias   ssw="cd ${GIT_REPOSITORIES_HOME}/spark-static-website"
+alias    ft="cd ${GIT_REPOSITORIES_HOME}/fonttheater-angularjs"
 alias    ew="cd ${GIT_REPOSITORIES_HOME}/entio-web"
 alias    br="cd ${GIT_REPOSITORIES_HOME}/bieltvedtrallysport.no"
 alias    el="cd ${DEV_HOME}/inphra-dev-projects/entiolab"
@@ -94,4 +96,4 @@ alias cloudify="sh /Users/torhaavard/Development/Software/POC/Cloudify/gigaspace
 
 
 ### Shortcuts ###
-alias run="sh run-app.sh"
+alias run="sh run.sh"
