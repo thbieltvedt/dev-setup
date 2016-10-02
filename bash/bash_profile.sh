@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 BASH_RC_FILE=${SCRIPT_DIR}/bashrc.sh
@@ -59,6 +60,10 @@ alias  gco='git commit'
 alias  gch='git checkout'
 alias   gs='git status'
 alias   gb='git branch'
+
+
+### Jekyll  ###
+alias js='jekyll serve'
 
 
 ### Change directory aliases ###
