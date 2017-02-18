@@ -5,7 +5,7 @@ BASH_RC_FILE=${SCRIPT_DIR}/bashrc.sh
 alias bashrc='source "${BASH_RC_FILE}"'
 # source the users bashrc if it exists
 if [ -f "${BASH_RC_FILE}" ] ; then
-	bashrc  
+	bashrc
 fi
 
 
@@ -69,9 +69,9 @@ alias js='jekyll serve'
 ### Change directory aliases ###
 alias    cd..="cd .."
 alias  home="cd ~"
-alias   dev="cd ${DEV_HOME}" 
+alias   dev="cd ${DEV_HOME}"
 alias   doc="cd ~/Documents"
-alias    bc='cd ~/Bieltvedt\ Consulting' 
+alias    bc='cd ~/Bieltvedt\ Consulting'
 alias   gae='cd "${GOOGLE_APP_ENGINE_HOME}/bin"'
 alias entio="cd ${DEV_HOME}/inphra-dev-projects/entiolab"
 alias    gh="cd ${GIT_REPOSITORIES_HOME}"
@@ -87,6 +87,7 @@ alias   poc="cd ${DEV_SOFTWARE_HOME}/POC"
 
 alias   sshbr='ssh root@79.125.113.175 -i ~/"Private keys"/thb.pem'
 alias   sshpoc='ssh root@46.137.74.84 -i ~/"Private keys"/thb.pem'
+alias   sshbrnew='ssh ubuntu@34.197.15.1 -i ~/"Private keys"/lightsail-bieltvedtrallysport.no-ubuntu.pem'
 
 alias reload="source ~/.bash_profile"
 alias   show="cat ${GIT_REPOSITORIES_HOME}/dev-setup/bash/bash_profile.sh"
