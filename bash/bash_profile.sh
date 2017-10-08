@@ -12,7 +12,7 @@ fi
 ### Base directories ###
 DEV_HOME=~/Dev
 DEV_SOFTWARE_HOME=${DEV_HOME}/Software
-GIT_REPOSITORIES_HOME=${DEV_HOME}/GitHub
+GIT_REPOSITORIES_HOME=~/GitHub
 
 ### Home directories export ###
 #export   JAVA_HOME=$DEV_SOFTWARE_HOME/Java/jdk1.7.0_21
