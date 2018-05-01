@@ -35,9 +35,15 @@
 	Iy0yNztBSE5bYnx+gIWQmaGkrb/CxwAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAA
 	AADJ
 	</data>
+	<key>ShowActiveProcessInTabTitle</key>
+	<false/>
 	<key>ShowActiveProcessInTitle</key>
 	<false/>
+	<key>ShowActivityIndicatorInTab</key>
+	<true/>
 	<key>ShowDimensionsInTitle</key>
+	<false/>
+	<key>ShowRepresentedURLInTabTitle</key>
 	<false/>
 	<key>ShowRepresentedURLInTitle</key>
 	<false/>
