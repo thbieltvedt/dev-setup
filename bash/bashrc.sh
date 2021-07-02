@@ -3,4 +3,5 @@ parse_git_branch() {
 }
 _PS1="\u: \W \$(parse_git_branch)$\n"
 __PS1="\[\e]0;\w\a\]\n\[\e[32m\]\u \[\e[33m\]\w\[\e[0m\] \$(parse_git_branch) \n\$ "
-PS1="\[\e]0;\w\a\]\n\[\e[32m\]\u \[\e[33m\]\w\[\e[0m\] \$(parse_git_branch) \$ "
+___PS1="\[\e]0;\w\a\]\n\[\e[32m\]\u \[\e[33m\]\w\[\e[0m\] \$(parse_git_branch) \$ "
+PS1="\[\e]0;\w\a\]\n\[\e[32m\] \[\e[33m\]\w\[\e[0m\] \$(parse_git_branch) \$ "
